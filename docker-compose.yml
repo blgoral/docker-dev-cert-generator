@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  cert:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./cert:/var/cert
+    user: "1000:1000"
