@@ -1,2 +1,4 @@
 cert/*.crt
 cert/*.key
+cert/*.pfx
+.DS_Store
